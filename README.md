@@ -21,10 +21,8 @@ I am a Software Engineering student at **Delhi Technological University (formerl
 ### 📊 Dynamic GitHub Analytics
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=goelvibhore06&show_icons=true&theme=visual&count_private=true" alt="Vibhore's GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=goelvibhore06&layout=compact&theme=visual" alt="Top Languages" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=goelvibhore06&theme=react-dark&area=true" alt="Vibhore's Contribution Graph" />
 </p>
-
 ---
 
 ### 🛠️ Tech Stack & Skills
