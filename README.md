@@ -50,10 +50,33 @@ I am a Software Engineering student at **Delhi Technological University (formerl
 *   **SwiftAid**: Co-developed a voice-first, offline-capable application built using React, Node.js, Python, MongoDB, and Tailwind CSS to bridge digital literacy and connectivity gaps for frontline workers.
 *   *Key Engineering Focus*: Implemented an **Offline-First Action Relay** via low-bandwidth SMS/2G, **Thin-Client Architecture** to minimize client-side NLP processing, **Phonetic Intent Mapping** using fuzzy matching, and **ULID Data Race Prevention** for asynchronous offline syncing[cite: 1].
 
-#### 📊 Hostel Mess Food Wastage Prediction System.
-*   Developed a Machine Learning system trained on a **45,000+ record dataset** to forecast food demand and reduce waste[cite: 1].
-*   *Technical Details*: Implemented complex feature engineering (attendance patterns, rolling averages, weather, exam periods) using models like Linear Regression, Decision Trees, Random Forest, and Gradient Boosting.
-*   *Results*: Achieved an **$R^2$ Score of 0.958** and MAE of 4.46 using Gradient Boosting Regressors.
+## 🛠️ Featured Projects
+
+Here are some of the key projects I've built, spanning Machine Learning, Full-Stack Mobile Development, and Cyber Security:
+
+### 🛡️ Network Traffic Anomaly Detection System
+An end-to-end Machine Learning and Deep Learning pipeline designed to classify VPN/tunneled traffic and detect network anomalies using flow-level features, integrated with a RAG layer for real-time threat intelligence.
+*   **Hybrid ML/DL Pipeline:** Utilizes **XGBoost** for supervised classification, **LSTMs** for temporal flow patterns, and **Autoencoders** for zero-day anomaly detection.
+*   **Flow-Level Analysis:** Processes packet size, inter-arrival time, and flow duration without relying on Deep Packet Inspection (DPI)—preserving privacy on encrypted payloads.
+*   **GenAI Threat Analyst (RAG):** Cross-references anomalous signatures with a vector database (protocols & CVE/threat-intel documents) via **LangChain** to generate human-readable security incident reports.
+*   **Tech Stack:** Python, PyTorch, TensorFlow, Scikit-Learn, XGBoost, LangChain, ChromaDB, HuggingFace/OpenAI APIs, Pandas, NumPy, Scapy.
+
+---
+
+### 🥗 AI Diet Planner
+A smart, AI-powered cross-platform nutrition companion application designed to make healthy eating simple, adaptive, and completely data-driven.
+*   **AI Recommendations:** Leverages the **OpenAI API** to dynamically generate personalized diet and meal plans tailored to specific user fitness goals.
+*   **Real-Time Architecture:** Features instant data synchronization across multiple devices backed by a high-performance **Convex** backend database.
+*   **Cross-Platform UI:** Delivers a highly polished, smooth native mobile experience across iOS, Android, and Web using **React Native** and **Expo**.
+*   **Tech Stack:** TypeScript, React Native, Expo, Convex (Backend), Firebase (Auth), OpenAI API.
+
+---
+
+### 📊 Hostel Mess Food Wastage Prediction
+A predictive Machine Learning system designed to optimize large-scale food preparation and significantly reduce daily food waste in communal environments.
+*   **Demand Forecasting:** Evaluates dynamic factors such as user attendance history, menu patterns, and contextual features to forecast preparation demands accurately.
+*   **Data-Driven Sustainability:** Translates raw consumer behavior metrics into actionable insights to improve supply chain sustainability.
+*   **Tech Stack:** Python, Jupyter Notebook, Pandas, Scikit-Learn, XGBoost.
 
 ---
 
